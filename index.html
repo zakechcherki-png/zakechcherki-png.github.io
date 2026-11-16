@@ -132,6 +132,7 @@ h3 { font-family: var(--display); font-weight: 700; font-size: 20px; line-height
 .route .step { font-family: var(--mono); font-size: 12.5px; color: var(--gold); display: block; margin-bottom: 10px; }
 .route .now { border-color: var(--gold); box-shadow: 0 0 40px rgba(201, 168, 106, .18); }
 .cols { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+.stack { display: grid; gap: 16px; }
 .sub { font-family: var(--mono); font-size: 13px; color: var(--gold); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 6px; }
 .line { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 2px 18px; padding: 14px 0; border-top: 1px solid var(--line); }
 .line .when { font-family: var(--mono); font-size: 13px; color: var(--mist); font-variant-numeric: tabular-nums; padding-top: 3px; }
@@ -209,7 +210,7 @@ footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line);
     <section class="panel" id="p-accueil" role="tabpanel" aria-labelledby="t-accueil">
       <div class="home">
         <div>
-          <p class="eyebrow">Systèmes · Réseaux · Cybersécurité</p>
+          <p class="eyebrow">Systèmes · Réseaux · Sécurité · ISC2 CC</p>
           <h1>Zakaria <em>Echcherki</em></h1>
           <p class="say">J'administre un parc Microsoft cloud à Marseille et je construis mon chemin vers la cybersécurité.</p>
           <div class="cta">
@@ -231,23 +232,33 @@ footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line);
       <h2>Du dépannage à la sécurité</h2>
       <p class="lead">J'ai commencé par réparer des PC en atelier. Aujourd'hui je gère des identités, des postes et des mobiles dans le cloud Microsoft. La suite : un master en cybersécurité.</p>
       <ol class="route">
-        <li class="card"><span class="step">Étape 1 · acquis</span><h3>Support IT</h3><p>Deux ans en atelier de réparation, puis support de 250 utilisateurs avec GLPI, PRTG et Active Directory.</p></li>
+        <li class="card"><span class="step">Étape 1 · acquis</span><h3>Support IT</h3><p>Technicien en atelier de réparation, puis administration et support en entreprise avec Active Directory et Microsoft 365.</p></li>
         <li class="card now"><span class="step">Étape 2 · en cours</span><h3>Administration systèmes &amp; réseaux</h3><p>Entra ID, Intune, Microsoft 365, sécurisation des postes Windows et gestion d'une flotte Android.</p></li>
-        <li class="card"><span class="step">Étape 3 · objectif</span><h3>Cybersécurité</h3><p>Sensibilisation, protection des données sensibles, gestion d'incidents. Puis un master spécialisé.</p></li>
+        <li class="card"><span class="step">Étape 3 · objectif</span><h3>Cybersécurité</h3><p>Certifié ISC2 CC. Sensibilisation, protection des données sensibles, gestion d'incidents. Puis un master spécialisé.</p></li>
       </ol>
       <div class="cols">
         <div class="card">
           <p class="sub">Expérience</p>
-          <div class="line"><span class="when">09/2026 → 09/2027</span><div><h3>Alternant systèmes &amp; réseaux · Association SAJ</h3><p>Administration systèmes et réseau, Entra ID et Intune, cybersécurité. Marseille.</p></div></div>
-          <div class="line"><span class="when">09/2025 → 04/2026</span><div><h3>Agent d'accueil · ASPTT La Fourragère</h3><p>Accueil et relation avec les adhérents d'un club de tennis.</p></div></div>
-          <div class="line"><span class="when">CDD · 1 mois</span><div><h3>Technicien support IT · Fatec Groupe</h3><p>Support d'environ 250 collaborateurs : GLPI, PRTG, Active Directory, Proxmox.</p></div></div>
-          <div class="line"><span class="when">12/2022 → 06/2024</span><div><h3>Technicien informatique · Atelier Express</h3><p>Réparation de PC, diagnostic matériel et logiciel, conseil aux clients.</p></div></div>
+          <div class="line"><span class="when">09/2026 → 09/2027</span><div><h3>Alternant administrateur systèmes, réseaux et sécurité · Association SAJ</h3><p>Mise en place du premier service informatique interne d'une association médico-sociale (150 salariés, plusieurs sites). Administration Microsoft 365, Entra ID et Intune, standardisation des postes, sécurité du parc et sensibilisation des salariés.</p></div></div>
+          <div class="line"><span class="when">11/2024 → 12/2024</span><div><h3>Administration réseau et systèmes · FATEC Group</h3><p>Comptes et droits dans Active Directory, licences Microsoft 365, préparation des postes des nouveaux collaborateurs, traitement des incidents et support.</p></div></div>
+          <div class="line"><span class="when">12/2022 → 06/2024</span><div><h3>Technicien informatique · Atelier Express</h3><p>Diagnostic, réparation et configuration de PC, dépannage réseau et Wi-Fi, mise en place d'antivirus, conseil aux particuliers et aux professionnels.</p></div></div>
+          <div class="line"><span class="when">09/2025 → 04/2026</span><div><h3>Agent d'accueil · Tennis Club La Fourragère, ASPTT</h3><p>Accueil des adhérents, réservations de terrains, inscriptions et suivi administratif.</p></div></div>
+          <div class="line"><span class="when">Depuis 08/2024</span><div><h3>Hôte d'accueil événementiel · Groupe ETIC</h3><p>Accueil, contrôle des accès et gestion des flux de spectateurs lors d'événements sportifs et culturels à Marseille.</p></div></div>
         </div>
-        <div class="card">
-          <p class="sub">Formation</p>
-          <div class="line"><span class="when">Depuis 09/2026</span><div><h3>Bachelor informatique en alternance</h3></div></div>
-          <div class="line"><span class="when">2024</span><div><h3>BTS SIO, option SISR</h3><p>Infrastructure, systèmes et réseaux.</p></div></div>
-          <div class="line"><span class="when">Certification</span><div><h3>AI Fundamentals: Language and Vision in AI</h3></div></div>
+        <div class="stack">
+          <div class="card">
+            <p class="sub">Certifications</p>
+            <div class="line"><span class="when">03/2026</span><div><h3>ISC2 Certified in Cybersecurity (CC)</h3><p>Principes de sécurité, réponse à incident, contrôle d'accès, sécurité réseau, opérations de sécurité.</p></div></div>
+            <div class="line"><span class="when">03/2026</span><div><h3>Cybersecurity Fundamentals</h3><p>IBM</p></div></div>
+            <div class="line"><span class="when">03/2026</span><div><h3>AI Fundamentals: Language and Vision in AI</h3><p>IBM</p></div></div>
+            <div class="line"><span class="when">04/2024</span><div><h3>Certification MOOC ANSSI</h3><p>ANSSI · sécurité des systèmes d'information</p></div></div>
+            <div class="line"><span class="when">01/2023</span><div><h3>Certification RGPD CNIL</h3><p>CNIL · protection des données personnelles</p></div></div>
+          </div>
+          <div class="card">
+            <p class="sub">Formation</p>
+            <div class="line"><span class="when">Depuis 09/2026</span><div><h3>Bachelor informatique en alternance</h3></div></div>
+            <div class="line"><span class="when">09/2022 → 06/2024</span><div><h3>BTS SIO, option SISR · École Pratique</h3><p>Administration des systèmes et des réseaux.</p></div></div>
+          </div>
         </div>
       </div>
     </section>
@@ -325,10 +336,10 @@ footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line);
       <h2>Ma boîte à outils</h2>
       <p class="lead">Les outils que j'utilise réellement, classés par domaine.</p>
       <div class="skills">
-        <div class="card tilt"><h3>Identités &amp; postes</h3><ul><li>Microsoft Entra ID</li><li>Microsoft Intune</li><li>Microsoft 365</li><li>Active Directory</li><li>Windows 10 / 11</li><li>Windows LAPS</li></ul></div>
-        <div class="card tilt"><h3>Sécurité</h3><ul><li>BitLocker</li><li>Bitdefender</li><li>MFA</li><li>RGPD</li><li>Sensibilisation</li><li>Gestion d'incident</li></ul></div>
+        <div class="card tilt"><h3>Identités &amp; postes</h3><ul><li>Microsoft Entra ID</li><li>Microsoft Intune</li><li>Administration Microsoft 365</li><li>Active Directory</li><li>Stratégies de groupe</li><li>Microsoft Deployment Toolkit</li><li>Windows 10 / 11</li><li>Windows LAPS</li></ul></div>
+        <div class="card tilt"><h3>Sécurité</h3><ul><li>Microsoft Defender</li><li>BitLocker</li><li>Bitdefender</li><li>MFA</li><li>Contrôle d'accès</li><li>Détection des menaces</li><li>Analyse des journaux</li><li>SIEM (notions)</li><li>RGPD</li><li>Sensibilisation</li><li>Gestion d'incident</li></ul></div>
         <div class="card tilt"><h3>Infrastructure &amp; support</h3><ul><li>GLPI</li><li>PRTG</li><li>Proxmox</li><li>MDM Android</li><li>Diagnostic matériel</li><li>Linux / WSL</li></ul></div>
-        <div class="card tilt"><h3>Développement</h3><ul><li>C</li><li>SQL / MySQL</li><li>Node / Express</li><li>React</li><li>Docker Compose</li><li>Git / GitHub</li><li>Pine Script</li></ul></div>
+        <div class="card tilt"><h3>Développement</h3><ul><li>C</li><li>SQL / MySQL</li><li>Node / Express</li><li>React</li><li>JavaScript</li><li>PHP</li><li>Docker Compose</li><li>Git / GitHub</li><li>Pine Script</li></ul></div>
       </div>
     </section>
 
@@ -337,7 +348,11 @@ footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line);
         <p class="eyebrow">Contact</p>
         <h2>On en parle ?</h2>
         <p class="lead">Une question sur un projet ou une opportunité en systèmes, réseaux ou cybersécurité.</p>
-        <a class="big" href="https://github.com/zakechcherki-png">github.com/zakechcherki-png</a>
+        <a class="big" href="mailto:zechcherki@asso-saj.fr">zechcherki@asso-saj.fr</a>
+        <div class="cta" style="justify-content:center;margin-top:18px">
+          <a class="btn gold" href="https://www.linkedin.com/in/zakaria-echcherki/">LinkedIn</a>
+          <a class="btn" href="https://github.com/zakechcherki-png">GitHub</a>
+        </div>
         <small>Basé à Marseille</small>
       </div>
     </section>
